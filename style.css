@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 162, 255, 0.815);
+    background-image: url("ilustracao-do-conceito-de-receita_114360-2803.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Roboto Mono", monospace;
+    width: 1200px;
+    height: 100vh;
+    
+}
+
+#container {
+    font-family: "Roboto Mono", monospace;  
+ 
+}
+
+#ims-dev {
+    width: 6vw;
+    position: relative;
+    top: 450px;
+    left: 956px;
+}
+
+#resultado {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 180px;
+    position: relative;
+    top: 13px;
+    left: 650px;
+    line-height: 28px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+button  {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    font-size: 4rem;
+    opacity: 0.5;
+    position: relative;
+    left: 897px;
+    top: 37px;
+    cursor: pointer;
+    background-color: #ffd700;
+}
+
+form {
+    position: absolute;
+    left: 850px;
+    top: 45px;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+#refresh {
+    position: absolute;
+    left: 999px;
+    top: 108px;
+    width: 69px;
+    height: 69px;
+    background: #ffd700 url(https://img.icons8.com/external-febrian-hidayat-flat-febrian-hidayat/64/null/external-Refresh-user-interface-febrian-hidayat-flat-febrian-hidayat.png);
+    background-position: center;
+background-repeat: no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+}
